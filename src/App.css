@@ -54,13 +54,26 @@ nav{
   align-items: center; height: 125vh;
   color: white;
   }
-  footer{
-  display: flex; width: 190vh;
-  align-items: center; height: 9vh;
-  background-color: rgb(190, 190, 202);
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: italic;
-  } 
+  footer {
+    display: flex;
+    flex-direction: row; /* Display items in a row */
+    justify-content: center; /* Spread items horizontally */
+    align-items: center; /* Center items vertically */
+    height: 9vh;
+    background-color: rgb(190, 190, 202);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+  }
+  
+  img {
+    width: 25%;
+    height: auto;
+  }
+  
+
+  
+  /* You can adjust the width of the images and text as needed */
+  
   img{
     width: 25%;
    height: auto;
@@ -84,8 +97,11 @@ nav{
   width: 60%;
 }
 .icones{
-  text-align: right;
+  align-items: center;
   width: 40px;
-  height: auto;
+  height: 40px;
  
+}
+.textorodape{
+  text-align: left;
 }

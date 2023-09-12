@@ -55,7 +55,7 @@ nav{
   color: white;
   }
   footer{
-  display: flex; width: 190vh; justify-content: left;
+  display: flex; width: 190vh;
   align-items: center; height: 9vh;
   background-color: rgb(190, 190, 202);
   font-family: Arial, Helvetica, sans-serif;
@@ -64,6 +64,8 @@ nav{
   img{
     width: 25%;
    height: auto;
+   justify-content: space-between;
+   
    
    
    
@@ -71,10 +73,19 @@ nav{
   div{
     display: inline-block;
     
+    
 
   }
   h1{
     font-size: 50px;
     text-align: right;
   }
+.chatbot{
+  width: 60%;
+}
+.icones{
+  text-align: right;
+  width: 40px;
+  height: auto;
  
+}

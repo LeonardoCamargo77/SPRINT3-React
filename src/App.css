@@ -45,7 +45,7 @@
 }
 nav{
   display: flex; width: 95vw;
-  justify-content: center; align-items: center;
+  justify-content: space-between; align-items: center;
   height: 13vh; background-color: rgb(190, 190, 202);
   & a{color: rgb(0, 0, 0); font-size: 1.5em; padding: 15px; }
   }
@@ -105,3 +105,13 @@ nav{
 .textorodape{
   text-align: left;
 }
+.integrantes{
+  text-align: right;
+}
+.guinchoseguro{
+  display: flex;
+  text-align: left;
+  font-family: blue;
+
+}
+

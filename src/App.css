@@ -56,9 +56,9 @@ nav{
   }
   footer {
     display: flex;
-    flex-direction: row; /* Display items in a row */
-    justify-content: center; /* Spread items horizontally */
-    align-items: center; /* Center items vertically */
+    flex-direction: row; 
+    justify-content: center; 
+    align-items: center; 
     height: 9vh;
     background-color: rgb(190, 190, 202);
     font-family: Arial, Helvetica, sans-serif;
@@ -71,8 +71,7 @@ nav{
   }
   
 
-  
-  /* You can adjust the width of the images and text as needed */
+
   
   img{
     width: 25%;
@@ -180,3 +179,47 @@ nav{
   }
  
 }
+
+Footer .direitos {
+  padding: 5px;
+  margin-left: 10px;
+  margin-right: 800px;
+  white-space: nowrap;
+} 
+.fotos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 100%; 
+}
+
+.guincho-item {
+  flex-basis: calc(33.33% - 20px);
+  text-align: center;
+  margin-bottom: 20px;
+  max-width: calc(33.33% - 20px); 
+  box-sizing: border-box;
+}
+
+.guincho-item img {
+  width: 100%;
+  height: auto;
+  max-width: 70%; 
+}
+
+.guincho-item p {
+  margin-top: 10px;
+}
+h3 {
+  font-size: 25px;
+  max-width: 80%; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}
+h4 {
+  font-size: 20px;
+  text-align: right;
+}
+

@@ -3,11 +3,11 @@ export default function QuemSomos() {
         <main>
             <h1>Integrantes</h1>
             <div className="integrantes">
-                <h3> Leonardo Lucena - 552537</h3>
-                <h3>Ana Paula Nascimento Silva - 552513</h3>
-                <h3>Nathan Nunes Calsonari - 552539</h3>
-                <h3>Geovana Ribeiro Domingos - 99646</h3>
-                <h3>Calina Thalya Santana da Silva - 552523</h3>
+                <h4> Leonardo Camargo Lucena - 552537</h4>
+                <h4>Ana Paula Nascimento Silva - 552513</h4>
+                <h4>Nathan Nunes Calsonari - 552539</h4>
+                <h4>Geovana Ribeiro Domingos - 99646</h4>
+                <h4>Calina Thalya Santana da Silva - 552523</h4>
               
 
             </div>
